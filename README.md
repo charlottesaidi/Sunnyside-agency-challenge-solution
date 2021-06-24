@@ -25,12 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshot.jpg) -->
-Incoming
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)  
+- [Live Site](https://charlottesaidi.github.io/Sunnyside-agency-challenge-solution/)  
 
 ## My process
 
@@ -69,7 +68,7 @@ The bubble style menu, easier than I thought and fun to do:
 ### Useful resources
 
 - [Css Tricks](https://css-tricks.com/snippets/css/css-triangle/) - Gave me the solution for the pointer responsive menu 
- 
+
 ## Author
 
 - Frontend Mentor - [@charlottesaidi](https://www.frontendmentor.io/profile/charlottesaidi)
