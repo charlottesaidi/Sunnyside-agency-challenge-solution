@@ -1,0 +1,209 @@
+/*
+|---------------------------------------------
+| RESET
+|---------------------------------------------
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:after,*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clear:before, .clear:after {
+  content: ' ';
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+.clear {
+  *zoom: 1;
+}
+/*
+|---------------------------------------------
+| MAIN STYLE
+|---------------------------------------------
+*/
+a {text-decoration: none; transition: all .3s;}
+body {font-size: 18px; font-family: 'Barlow', sans-serif; font-weight: 600; line-height: 1.3}
+.wrap {max-width: 1440px; width: 100%; margin: 0 auto;}
+h1, h2 {font-family: 'Fraunces', serif;}
+.attribution { font-size: 11px; text-align: center; padding: 1% 0}
+.attribution a { color: hsl(228, 45%, 44%); }
+.hidden {display: none;}
+.grey {opacity: .5}
+/*
+|---------------------------------------------
+| MAIN STYLE / HEADER MENU + LOGO
+|---------------------------------------------
+*/
+.header_background {position: relative; height: 770px; background: url('../images/desktop/image-header.jpg') center; background-size: cover}
+.header_wrap { position: absolute; top: 30px; right: 0; left: 0;}
+.header_menu_section {padding: 0 40px;}
+.header_menu_section, .header_nav ul {display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center;}
+.header_nav ul li {padding: 0 10px}
+.header_links a {color: hsl(0, 0%, 100%); padding: 17px 30px; border-radius: 25px; font-size: 18px;}
+.header_links.btn_white a {font-family: 'Fraunces', serif; font-size: 16px; background: hsl(0, 0%, 100%); color: #000; text-transform: uppercase;}
+.header_nav .header_links a:hover {color: hsl(0, 0%, 100%); background: #6eceff}
+.logo {padding: 17px 0;}
+/*
+|---------------------------------------------
+| MAIN STYLE / MOBILE NAVIGATION
+|---------------------------------------------
+*/
+.mobile_btn {display: none;}
+#mobile_nav {position: absolute; z-index: 1; left: 0; right: 0; }
+#mobile_nav ul {position: relative; height: 330px; width: 90%; margin: 50px auto; display: flex; flex-flow: column nowrap; justify-content: space-around; align-items: center; background-color: hsl(0, 0%, 100%); padding: 20px 0 30px 0; border-style: solid; border-width: 0 .5em .8em .5em; border-color: transparent;}
+#mobile_nav .header_links a {color: hsl(213, 9%, 39%)}
+#mobile_nav .header_links.btn_white a {background:hsl(51, 100%, 49%); color: hsl(212, 27%, 19%);}
+.arrow-up {position: absolute; top: -30px; right: -9px; width: 0; height: 0; border-left: 30px solid transparent; border-right: 0 solid transparent; border-bottom: 30px solid hsl(0, 0%, 100%);}
+/*
+|---------------------------------------------
+| MAIN STYLE / HEADER TITLE
+|---------------------------------------------
+*/
+.header_title_section {padding: 120px 0;}
+.header_title {text-align: center; color: hsl(0, 0%, 100%); font-size: 45px; font-weight: 900; text-transform: uppercase; letter-spacing: 10px; padding: 0 15px}
+.icon_arrow {text-align: center; padding-top: 67px;}
+/*
+|---------------------------------------------
+| MAIN STYLE / PAGE CONTENT / IMG CHECKED PATTERN
+|---------------------------------------------
+*/
+.main_sections {display: flex; flex-flow: row wrap; justify-content: center; align-items: center;  color: #1e2c39}
+.main_sections h2 {font-size: 42px; font-weight: 900}
+.main_sections .blocks {width: 50%; height: 600px;}
+.text_blocks {display: flex}
+.section_wrap {margin: auto; width: 62%;}
+.section_wrap .text p {color: hsl(210, 4%, 67%); padding: 10% 0; line-height: 1.4}
+.section_wrap a {display: inline-block; text-indent: 8px; color: #1e2c39; text-transform: uppercase; font-family: 'Fraunces', serif;}
+.section_background {height: 600px;}
+.section_background.egg {background: url('../images/desktop/image-transform.jpg') center; background-size: cover}
+.section_background.cup {background: url('../images/desktop/image-stand-out.jpg') center; background-size: cover}
+.section_background.cherry {background: url('../images/desktop/image-graphic-design.jpg') center; background-size: cover}
+.section_background.orange {background: url('../images/desktop/image-photography.jpg') center; background-size: cover}
+.underline_link {height: 10px; border-radius: 5px; width: 141px; margin-top: -8px; transition: all .3s}
+.yellow {background: #fff1be}
+.red {background: #ffd7d1}
+a:hover + .yellow {background: hsl(51, 100%, 49%)}
+a:hover + .red {background: hsl(7, 99%, 70%)}
+.section_background_rel {position: relative;}
+.text_absolute {position: absolute; bottom: 10%; left: 0; right: 0; text-align: center}
+.text_absolute h2 {font-size: 27px}
+.text_absolute p {font-size: 14px; width: 50%; margin: 5% auto 0 auto; line-height: 1.5; letter-spacing: 1px;}
+.graphic {color: hsl(167, 40%, 24%)}
+.photography {color: hsl(198, 62%, 26%)}
+/*
+|---------------------------------------------
+| MAIN STYLE / PAGE CONTENT / CLIENT TESTIMONIALS
+|---------------------------------------------
+*/
+.main_fourth_section .client_wrap {max-width: 1200px; width: 100%; margin: 0 auto; padding-top: 150px}
+.client_wrap h2 {text-transform: uppercase; color: hsl(210, 4%, 67%); font-size: 18px; letter-spacing: 5px; text-align: center;}
+.client_blocks {display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; text-align: center;}
+.client_blocks .blocks {width: 33.333333%; line-height: 1.7; padding: 70px 0 130px 0}
+.blocks .avatar img {height: 70px; width: 70px; border-radius: 50%;}
+.client_blocks .text {padding: 13% 8%; color: hsl(232, 10%, 55%);}
+.client_blocks .name p {font-family: 'Fraunces', serif; color: #1e2c39;}
+.client_blocks .name span {color: hsl(210, 4%, 67%); font-size: 15px;}
+/*
+|---------------------------------------------
+| MAIN STYLE / PAGE CONTENT / IMAGES BANNER
+|---------------------------------------------
+*/
+.main_fifth_section {display: flex; flex-flow: row wrap;}
+.bottom_banner_blocks {width: 25%; height: 446px}
+.bottom_banner_blocks.milk {background: url('../images/desktop/image-gallery-milkbottles.jpg') center; background-size: cover}
+.bottom_banner_blocks.orange_gallery {background: url('../images/desktop/image-gallery-orange.jpg') center; background-size: cover}
+.bottom_banner_blocks.cone {background: url('../images/desktop/image-gallery-cone.jpg') center; background-size: cover}
+.bottom_banner_blocks.sugarcubes {background: url('../images/desktop/image-gallery-sugarcubes.jpg') center; background-size: cover}
+/*
+|---------------------------------------------
+| MAIN STYLE / FOOTER
+|---------------------------------------------
+*/
+footer {background: #90d4c5; color: hsl(168, 34%, 41%);}
+.footer_wrap {max-width: 800px; width: 100%; margin: 0 auto; display: flex; flex-flow: column nowrap; justify-content: space-between; align-items: center; padding: 70px 0;}
+.footer_wrap svg {fill: hsl(168, 34%, 41%); transition: all .3s}
+.footer_wrap ul {display: flex; justify-content: center; align-items: center;}
+.footer_wrap a {color: hsl(168, 34%, 41%); font-size: 16px;}
+.footer_nav .footer_links {padding: 20% 15%;}
+.social_nav .footer_links {padding: 40% 15% 0 15%;}
+.footer_nav .footer_links a:hover {color: hsl(0, 0%, 100%)}
+.social_nav .footer_links svg:hover {fill: hsl(0, 0%, 100%)}
+/*
+|---------------------------------------------
+| MAIN STYLE / RESPONSIVE
+|---------------------------------------------
+*/
+@media screen AND (max-width: 800px) {
+	.header_nav {display: none}
+	.mobile_btn {display: block; cursor: pointer;}
+}
+@media screen AND (max-width: 700px) {
+	body {font-size: 18px;}
+	.header_background {position: relative; height: 600px; background: url('../images/mobile/image-header.jpg') center; background-size: cover}
+	.header_menu_section {padding: 0; width: 90%; margin: 0 auto;}
+	.header_title_section {padding: 70px 0;}
+	.header_title {font-size: 40px;}
+	.icon_arrow {padding-top: 47px;}
+	.icon_arrow_img {height: 130px}
+	.main_sections .blocks, .section_background {width: 100%; height: 500px; text-align: center;}
+	.main_first_section .block_2 {order: -1;}
+	.section_wrap {width: 100%; padding: 0 20px;}
+	.underline_link {margin: -8px auto}
+	.section_wrap a {text-indent: 0;}
+	.section_background.egg {background: url('../images/mobile/image-transform.jpg') center; background-size: cover}
+	.section_background.cup {background: url('../images/mobile/image-stand-out.jpg') center; background-size: cover}
+	.section_background.cherry {background: url('../images/mobile/image-graphic-design.jpg') center; background-size: cover}
+	.section_background.orange {background: url('../images/mobile/image-photography.jpg') center; background-size: cover}
+	.section_background_rel, .main_third_section .blocks {height: 600px}
+	.main_fourth_section .client_wrap {padding-top: 70px}
+	.client_blocks .blocks, .client_wrap h2 {width: 100%; padding: 0 0 50px 0}
+	.client_blocks .text {padding: 25px 28px;}
+	.bottom_banner_blocks {width: 50%; height: 200px;}
+	.bottom_banner_blocks.milk {background: url('../images/mobile/image-gallery-milkbottles.jpg') no-repeat center; background-size: cover}
+	.bottom_banner_blocks.orange_gallery {background: url('../images/mobile/image-gallery-orange.jpg') center; background-size: cover}
+	.bottom_banner_blocks.cone {background: url('../images/mobile/image-gallery-cone.jpg') center; background-size: cover}
+	.bottom_banner_blocks.sugarcubes {background: url('../images/mobile/image-gallery-sugar-cubes.jpg') center; background-size: cover}
+}
