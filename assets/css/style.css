@@ -77,7 +77,7 @@ h1, h2 {font-family: 'Fraunces', serif;}
 | MAIN STYLE / HEADER MENU + LOGO
 |---------------------------------------------
 */
-.header_background {position: relative; height: 770px; background: url('../images/desktop/image-header.jpg') center; background-size: cover}
+.header_background {position: relative; height: 800px; background: url('../images/desktop/image-header.jpg') center; background-size: cover}
 .header_wrap { position: absolute; top: 30px; right: 0; left: 0;}
 .header_menu_section {padding: 0 40px;}
 .header_menu_section, .header_nav ul {display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center;}
@@ -86,6 +86,7 @@ h1, h2 {font-family: 'Fraunces', serif;}
 .header_links.btn_white a {font-family: 'Fraunces', serif; font-size: 16px; background: hsl(0, 0%, 100%); color: #000; text-transform: uppercase;}
 .header_nav .header_links a:hover {color: hsl(0, 0%, 100%); background: #6eceff}
 .logo {padding: 17px 0;}
+.logo_img {width: 100%;}
 /*
 |---------------------------------------------
 | MAIN STYLE / MOBILE NAVIGATION
@@ -102,7 +103,7 @@ h1, h2 {font-family: 'Fraunces', serif;}
 | MAIN STYLE / HEADER TITLE
 |---------------------------------------------
 */
-.header_title_section {padding: 120px 0;}
+.header_title_section {padding: 145px 0;}
 .header_title {text-align: center; color: hsl(0, 0%, 100%); font-size: 45px; font-weight: 900; text-transform: uppercase; letter-spacing: 10px; padding: 0 15px}
 .icon_arrow {text-align: center; padding-top: 67px;}
 /*
