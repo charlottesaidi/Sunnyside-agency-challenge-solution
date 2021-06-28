@@ -172,7 +172,7 @@ footer {background: #90d4c5; color: hsl(168, 34%, 41%);}
 .social_nav .footer_links {padding: 40% 15% 0 15%;}
 .footer_nav .footer_links a:hover {color: hsl(0, 0%, 100%)}
 .social_nav .footer_links svg:hover {fill: hsl(0, 0%, 100%)}
-.sr-only {position: absolute; z-index: 0}
+.sr-only {position: absolute; z-index: -1}
 /*
 |---------------------------------------------
 | MAIN STYLE / RESPONSIVE
