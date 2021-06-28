@@ -68,7 +68,7 @@ a {text-decoration: none; transition: all .3s;}
 body {font-size: 18px; font-family: 'Barlow', sans-serif; font-weight: 600; line-height: 1.3}
 .wrap {max-width: 1440px; width: 100%; margin: 0 auto;}
 h1, h2 {font-family: 'Fraunces', serif;}
-.attribution { font-size: 11px; text-align: center; padding: 1% 0}
+.attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 .hidden {display: none;}
 .grey {opacity: .5}
@@ -139,10 +139,10 @@ a:hover + .red {background: hsl(7, 99%, 70%)}
 | MAIN STYLE / PAGE CONTENT / CLIENT TESTIMONIALS
 |---------------------------------------------
 */
-.main_fourth_section .client_wrap {max-width: 1200px; width: 100%; margin: 0 auto; padding-top: 150px}
-.client_wrap h2 {text-transform: uppercase; color: hsl(210, 4%, 67%); font-size: 18px; letter-spacing: 5px; text-align: center;}
+.main_fourth_section .client_wrap {max-width: 1200px; width: 100%; margin: 0 auto; padding-top: 160px}
+.client_wrap h2 {text-transform: uppercase; font-weight: 900; color: hsl(210, 4%, 67%); font-size: 18px; letter-spacing: 5px; text-align: center;}
 .client_blocks {display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; text-align: center;}
-.client_blocks .blocks {width: 33.333333%; line-height: 1.7; padding: 70px 0 130px 0}
+.client_blocks .blocks {width: 33.333333%; line-height: 1.7; padding: 70px 0 150px 0}
 .blocks .avatar img {height: 70px; width: 70px; border-radius: 50%;}
 .client_blocks .text {padding: 13% 8%; color: hsl(232, 10%, 55%);}
 .client_blocks .name p {font-family: 'Fraunces', serif; color: #1e2c39;}
@@ -172,6 +172,7 @@ footer {background: #90d4c5; color: hsl(168, 34%, 41%);}
 .social_nav .footer_links {padding: 40% 15% 0 15%;}
 .footer_nav .footer_links a:hover {color: hsl(0, 0%, 100%)}
 .social_nav .footer_links svg:hover {fill: hsl(0, 0%, 100%)}
+.sr-only {display: none}
 /*
 |---------------------------------------------
 | MAIN STYLE / RESPONSIVE
